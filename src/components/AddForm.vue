@@ -230,20 +230,21 @@ form textarea::placeholder {
   right: 5%;
   z-index: 2;
   padding: 10px 16px;
-  background: #fffefb;
+  background: #5ea832;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   font-size: 16px;
   border: none;
   cursor: pointer;
-  color: #b4b4b4;
+  color: #ffffff;
   outline: none;
   text-align: center;
   transition: 0.3s ease;
 }
 .toggleFormBtn:hover {
-  box-shadow: 0px 2px 5px rgba(1, 1, 1, 0.5);
-  color: #222;
+  background: #ffffff;
+  border: 1px solid #5ea832;
+  color: #5ea832;
 }
 .mobile-nav-enter-active,
 .mobile-nav-close-active {
