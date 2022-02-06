@@ -47,7 +47,7 @@
     </button>
     <button
       type="button"
-      class="toggleFormBtn close"
+      class="toggleFormBtn toggleFormBtnClose"
       @click="toggleMobileNav"
       v-show="mobileNav"
     >
@@ -245,6 +245,9 @@ form textarea::placeholder {
   background: #ffffff;
   border: 1px solid #5ea832;
   color: #5ea832;
+}
+.toggleFormBtnClose {
+  padding: 12px 16px;
 }
 .mobile-nav-enter-active,
 .mobile-nav-close-active {
