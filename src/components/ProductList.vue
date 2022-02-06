@@ -1,11 +1,13 @@
 <template>
   <div class="product__list" v-if="products.length > 0">
-    <Product
-      v-for="product in products"
-      :product="product"
-      :key="product.id"
-      @remove="$emit('remove', product)"
-    />
+    <transition-group name="list">
+      <Product
+        v-for="product in products"
+        :product="product"
+        :key="product.id"
+        @remove="$emit('remove', product)"
+      />
+    </transition-group>
   </div>
   <div v-else class="not__found">
     <p class="not__found-text">
@@ -37,12 +39,24 @@ export default {
 .not__found {
   width: 60%;
   display: flex;
-  /* align-items: center; */
   justify-content: center;
 }
 .not__found-text {
   font-size: 24px;
   color: #3f3f3f;
   text-align: center;
+}
+.list-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+.list-enter-active,
+.list-leave-active {
+  transition: all 0.2s ease;
+}
+.list-enter-from,
+.list-leave-to {
+  opacity: 0;
+  transform: translateY(30px);
 }
 </style>

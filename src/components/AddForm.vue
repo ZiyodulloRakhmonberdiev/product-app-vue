@@ -22,12 +22,12 @@
         type="text"
         id="product__link"
         placeholder="Введите ссылку"
-        v-model="product.link"
+        v-model="product.src"
       />
-      <label for="cost">Цена товара<span /></label>
+      <label for="product__cost">Цена товара<span /></label>
       <input
         type="text"
-        id="cost__link"
+        id="product__cost"
         placeholder="Введите цену"
         v-model="product.cost"
       />
@@ -121,9 +121,6 @@ form textarea::placeholder {
   color: #b4b4b4;
   font-size: 12px;
 }
-input[type="file"] {
-  display: none;
-}
 .add__btn {
   width: 100%;
   margin-top: 6px;
@@ -135,6 +132,7 @@ input[type="file"] {
   border-radius: 10px;
   border: none;
   transition: 0.2s ease;
+  cursor: pointer;
 }
 .add__btn:hover {
   background: #7bae73;

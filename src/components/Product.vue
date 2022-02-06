@@ -33,7 +33,7 @@ export default {
   border-radius: 4px;
 }
 .product-image-wrap {
-  width: 100%;
+  width: 312px;
   height: 200px;
 }
 .product-image-wrap img {
@@ -78,6 +78,7 @@ export default {
   justify-content: center;
   display: none;
   border: none;
+  cursor: pointer;
 }
 .delete-button:hover {
   background: #ff5099;
