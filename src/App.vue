@@ -4,7 +4,7 @@
       <Navbar />
     </header>
     <section class="products">
-      <AddForm @addProduct="createCard" />
+      <AddForm @addProduct="createCard" class="add-form" />
       <ProductList :products="products" @remove="removeProduct" />
     </section>
   </main>
@@ -88,7 +88,7 @@ export default {
   },
 };
 </script>
-<style scoped>
+<style scoped >
 * {
   font-family: Source Sans Pro, sans-serif;
   padding: 0;
@@ -123,10 +123,8 @@ export default {
 }
 .modal__btn {
   width: auto;
-  /* margin-top: 6px; */
   height: 36px;
   font-size: 12px;
-  /* line-height: 15px; */
   color: #b4b4b4;
   background: #eeeeee;
   border-radius: 10px;
@@ -136,5 +134,23 @@ export default {
 .modal__btn:hover {
   background: #7bae73;
   color: #ffffff;
+}
+.product__list {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+@media (max-width: 560px) {
+  #app {
+    padding: 12px;
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+  .product__list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
 }
 </style>

@@ -2,8 +2,7 @@
   <div class="navbar">
     <h2 class="add__item">Добавление товара</h2>
     <nav>
-      <button class="modal__btn">Добавление товара</button>
-      <SortByPrice />
+      <SortByPrice class="sort" />
     </nav>
   </div>
 </template>
@@ -21,25 +20,28 @@ export default {
   justify-content: space-between;
   align-items: center;
 }
-.modal__btn {
-  width: auto;
-  height: 36px;
-  font-size: 12px;
-  color: #b4b4b4;
-  background: #eeeeee;
-  border-radius: 10px;
-  border: none;
-  transition: 0.2s ease;
-  display: none;
-}
-.modal__btn:hover {
-  background: #7bae73;
-  color: #ffffff;
-}
 .add__item {
   font-size: 28px;
   font-weight: 600;
   line-height: 35px;
   margin-bottom: 16px;
+}
+@media (max-width: 560px) {
+  .add__item {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  .navbar {
+    position: fixed;
+    left: 0;
+    padding-top: 80px !important;
+    padding-bottom: 30px !important;
+    z-index: 10;
+    background: #ffffff;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-bottom: 1px solid #999;
+  }
 }
 </style>

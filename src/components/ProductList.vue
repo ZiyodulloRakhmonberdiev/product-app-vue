@@ -11,8 +11,8 @@
   </div>
   <div v-else class="not__found">
     <p class="not__found-text">
-      There is no product. Because you turned them off. <br />
-      You can add them via the form. It is on the left side of the screen.
+      Я рад, что вам нравятся мои мысли. Теперь через форму вы также можете
+      добавлять свои мысли. Все будет к лучшему
     </p>
   </div>
 </template>
@@ -37,7 +37,7 @@ export default {
   flex-wrap: wrap;
 }
 .not__found {
-  width: 60%;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -58,5 +58,20 @@ export default {
 .list-leave-to {
   opacity: 0;
   transform: translateY(30px);
+}
+@media (max-width: 1280px) {
+  .product__list {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 560px) {
+  .product__list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
 }
 </style>

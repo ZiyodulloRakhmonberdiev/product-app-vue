@@ -44,4 +44,9 @@ export default {
 .select option::before {
   margin-right: 5px;
 }
+@media (max-width: 560px) {
+  .select {
+    padding: 5px;
+  }
+}
 </style>

@@ -91,4 +91,43 @@ export default {
   display: flex;
   transition: 0.2s ease;
 }
+@media (max-width: 1280px) {
+  .product {
+    max-width: 400px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+  }
+  .product-image-wrap {
+    width: 350px;
+  }
+  .product-text-wrap {
+    padding-right: 26px;
+  }
+}
+@media (max-width: 560px) {
+  .product {
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+  }
+  .product:first-child {
+    margin-top: 7rem;
+  }
+  .product-text-wrap {
+    padding: 16px;
+  }
+  .product-text-wrap .card-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #3f3f3f;
+  }
+  .card-cost {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 0;
+    color: #3f3f3f;
+  }
+}
 </style>
