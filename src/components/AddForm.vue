@@ -7,8 +7,8 @@
         id="product__name"
         placeholder="Введите наименование товара"
         v-model="product.title"
-        required
       />
+      <p v-show="inputChange" class="error">Поле является обязательным</p>
       <label for="product__description">Описание товара</label>
       <textarea
         id="product__description"
@@ -191,6 +191,13 @@ textarea {
   border-radius: 4px;
   border: none;
   resize: none;
+}
+.error {
+  font-size: 12px;
+  line-height: 4px;
+  letter-spacing: -0.02em;
+  color: #ff8484;
+  margin-bottom: 16px;
 }
 form input::placeholder {
   color: #b4b4b4;

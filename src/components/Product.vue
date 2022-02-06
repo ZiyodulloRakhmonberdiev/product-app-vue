@@ -99,7 +99,7 @@ export default {
     position: relative;
   }
   .product-image-wrap {
-    width: 350px;
+    width: 100%;
   }
   .product-text-wrap {
     padding-right: 26px;

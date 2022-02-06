@@ -116,25 +116,6 @@ export default {
   justify-content: space-between;
   align-items: center;
 }
-.header .select option {
-  font-size: 12px;
-  line-height: 15px;
-  color: #b4b4b4;
-}
-.modal__btn {
-  width: auto;
-  height: 36px;
-  font-size: 12px;
-  color: #b4b4b4;
-  background: #eeeeee;
-  border-radius: 10px;
-  border: none;
-  transition: 0.2s ease;
-}
-.modal__btn:hover {
-  background: #7bae73;
-  color: #ffffff;
-}
 .product__list {
   display: flex;
   justify-content: start;
