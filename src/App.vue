@@ -25,54 +25,54 @@ export default {
       products: [
         {
           id: 1,
-          src: "https://res.cloudinary.com/idaproject/image/upload/v1644162561/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_ifawf6.png",
-          title: "Он бы попросил вас прочитать. Это займет у вас 2 минуты",
+          src: "https://res.cloudinary.com/idaproject/image/upload/v1644162561/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_hnrtko.jpg",
+          title: "Card title",
           description:
-            "Он считает, что будет более креативно донести свою точку зрения через задание, которое вы ему дадите.",
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
           cost: "12.000",
         },
         {
           id: 2,
-          src: "https://res.cloudinary.com/idaproject/image/upload/v1644162563/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_3_kqcqwt.jpg",
+          src: "https://res.cloudinary.com/idaproject/image/upload/v1644162561/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_hnrtko.jpg",
           link: "",
-          title: "Как вы думаете, он гений?",
+          title: "Card title",
           description:
-            "Он не мог выполнить эту работу. Но он сделал все, что мог. Если бы в нем была атмосфера программиста, он бы преуспел. Он говорит, что достаточно много читать, чтобы быть хорошим программистом. Но чтобы быть хорошим человеком, нужно родиться хорошим человеком. Для него человечность всегда превыше всего",
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
           cost: "7.000",
         },
         {
           id: 3,
-          src: "https://res.cloudinary.com/idaproject/image/upload/v1644163668/photo_2022-02-06_18-07-30_gfdx1t.jpg",
+          src: "https://res.cloudinary.com/idaproject/image/upload/v1644162561/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_hnrtko.jpg",
           link: "",
-          title: "Он готов на все",
+          title: "Card title",
           description:
-            "Он отказался от своей любимой библиотеки react, чтобы присоединиться к своей любимой команде, и попытался освоить упомянутый вами фреймворк за 3 дня без сна и еды. Потому что его любовь к idaproject сильнее всего ",
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
           cost: "200.000",
         },
         {
           id: 4,
-          src: "https://res.cloudinary.com/idaproject/image/upload/v1644161688/photo_2022-02-06_17-33-23_v3ggkg.jpg",
-          title: "Что вы думаете о своей компании?",
+          src: "https://res.cloudinary.com/idaproject/image/upload/v1644162561/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_hnrtko.jpg",
+          title: "Card title",
           description:
-            "Он сходит с ума, когда отслеживает вашу компанию в социальных сетях. Потому что это идеальная семья и компания, о которых он мечтал. Он любит профессионализм. Вот почему он выбрал тебя. Не важно сколько зарплата, главное окружение. ",
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
           cost: "15.000",
         },
         {
           id: 5,
-          src: "https://res.cloudinary.com/idaproject/image/upload/v1644163666/photo_2022-02-06_18-07-20_ll9etg.jpg",
-          title: "Советую попытать счастья",
+          src: "https://res.cloudinary.com/idaproject/image/upload/v1644162561/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_hnrtko.jpg",
+          title: "Card title",
           description:
-            "Если вы позволите ему стать членом вашей семьи, у вас будет мечтательный программист. Напомню, что в будущем он хочет стать Илоном Маском.",
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
           cost: "11.000",
         },
 
         {
           id: 6,
-          src: "https://res.cloudinary.com/idaproject/image/upload/v1644162561/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_2_glgdzx.jpg",
+          src: "https://res.cloudinary.com/idaproject/image/upload/v1644162561/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_hnrtko.jpg",
           link: "",
-          title: "Он узнает все это от вас",
+          title: "Card title",
           description:
-            "Он не боится поражения. Он может встать на ноги для своей цели. Вы просто открываете ему двери, он делает все остальное. Если вам интересно, вы можете встретиться с ним за чашечкой кофе. Он ожидает, что вы наймете его. С уважением он, то есть я!",
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
           cost: "1.000",
         },
       ],
