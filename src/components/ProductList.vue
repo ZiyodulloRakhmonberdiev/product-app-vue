@@ -11,8 +11,7 @@
   </div>
   <div v-else class="not__found">
     <p class="not__found-text">
-      Я рад, что вам нравятся мои мысли. Теперь через форму вы также можете
-      добавлять свои мысли. Все будет к лучшему
+      Nothing Found
     </p>
   </div>
 </template>
