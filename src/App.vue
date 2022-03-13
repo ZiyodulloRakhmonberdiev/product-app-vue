@@ -25,7 +25,7 @@ export default {
       products: [
         {
           id: 1,
-          src: "https://res.cloudinary.com/idaproject/image/upload/v1644162561/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_hnrtko.jpg",
+          src: "https://res.cloudinary.com/idaproject/image/upload/v1647199006/Rectangle31_lyppmo.png",
           title: "Card title",
           description:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
@@ -33,7 +33,7 @@ export default {
         },
         {
           id: 2,
-          src: "https://res.cloudinary.com/idaproject/image/upload/v1644162561/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_hnrtko.jpg",
+          src: "https://res.cloudinary.com/idaproject/image/upload/v1647199006/Rectangle31_lyppmo.png",
           link: "",
           title: "Card title",
           description:
@@ -42,7 +42,7 @@ export default {
         },
         {
           id: 3,
-          src: "https://res.cloudinary.com/idaproject/image/upload/v1644162561/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_hnrtko.jpg",
+          src: "https://res.cloudinary.com/idaproject/image/upload/v1647199006/Rectangle31_lyppmo.png",
           link: "",
           title: "Card title",
           description:
@@ -51,7 +51,7 @@ export default {
         },
         {
           id: 4,
-          src: "https://res.cloudinary.com/idaproject/image/upload/v1644162561/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_hnrtko.jpg",
+          src: "https://res.cloudinary.com/idaproject/image/upload/v1647199006/Rectangle31_lyppmo.png",
           title: "Card title",
           description:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
@@ -59,7 +59,7 @@ export default {
         },
         {
           id: 5,
-          src: "https://res.cloudinary.com/idaproject/image/upload/v1644162561/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_hnrtko.jpg",
+          src: "https://res.cloudinary.com/idaproject/image/upload/v1647199006/Rectangle31_lyppmo.png",
           title: "Card title",
           description:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
@@ -68,7 +68,7 @@ export default {
 
         {
           id: 6,
-          src: "https://res.cloudinary.com/idaproject/image/upload/v1644162561/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_hnrtko.jpg",
+          src: "https://res.cloudinary.com/idaproject/image/upload/v1647199006/Rectangle31_lyppmo.png",
           link: "",
           title: "Card title",
           description:
